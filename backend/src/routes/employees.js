@@ -1,15 +1,13 @@
 import express from "express";
-import employeesController from "../controllers/employeesController.js";
-import clientsController from "../controllers/clientsController.js";
+import EmployeessController from "../Controlador/EmpleadosController.js";
 
 const router = express.Router();
 
-router.route("/")
-.get(employeesController.getEmployees)
-.post(employeesController.insertEmployees);
+router.route("/").get(EmployeessController.getEmployees)
+.post(EmployeessController.insertEmployees)
 
 router.route("/:id")
-.put(employeesController.updateEmployees)
-.delete(employeesController.deleteEmployees);
+.put(EmployeessController.updateEmployees)
+.delete(EmployeessController.deleteEmployees);
 
 export default router;

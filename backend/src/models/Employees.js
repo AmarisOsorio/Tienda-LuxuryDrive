@@ -1,72 +1,34 @@
-/*
-   Campos: 
-     name
-     lastName
-     birthday
-     email
-     address
-     hireDate
-     password
-     telephone
-     dui
-     isssNumber
-     isVerified
-*/
+import {Schema, model} from "mongoose";
 
-import { Schema , model } from "mongoose";
+const EmployeesShema = new Schema({
 
-const employeesSchema = new Schema({
     name: {
-    type: String,
-      require: true,
-      maxLength: 100
-    },
-    lastName: {
-      type: String,
-      require: true,
-      maxLength: 100
-    },
-    birthday: {
-      type: Date
-    },
-    email: {
-      type: String,
-      require: true
-    },
-    address: {
-      type: String,
-      require: true,
-      maxLength: 100
-    },
-    hireDate: {
-      type: Date,
-      require: true
-    },
-    password: {
-      type: String,
-      require: true,
-      maxLength: 100
-    },
-    telephone: {
-        type: String,
-        maxLength: 8
-    },
-    dui: {
         type: String,
         require: true,
-        maxLength: 10
+        maxLength: 100
     },
-    isssNumber:{
+    phoneNumber: {
         type: String,
-        maxLength: 8
-    },
-    isVerified: {
-        type: Boolean,
         require: true
-      },
+    },
+    email: {
+        type: String
+    },
+    
+    idRole: {
+        type: Schema.Types.ObjectId,
+        ref: "Rol",
+        require : true
+    },
+    salaries: {
+        type: Number,
+        require: true,
+        min : 0
+    }
 },{
     timestamps: true,
     strict: false
-});
+})
 
-export default model("Employees", employeesSchema);
+
+export default model("clients", ClientsShema)
