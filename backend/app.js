@@ -7,6 +7,10 @@ import branchesRoute from "./src/routes/branches.js"
 import stockRoute from "./src/routes/stock.js"
 import RoleRoute from "./src/routes/Role.js"
 import EmployeesRoute from "./src/routes/employees.js";
+import clientsRoute from "./src/routes/clients.js"
+import ordersRoute from "./src/routes/orders.js";
+import servicesRoute from "./src/routes/services.js";
+import servicesProvided from "./src/routes/servicesProvided.js"
 
 const app = express();
 
@@ -20,7 +24,11 @@ app.use("/api/vehicles", vehiclesRoute);
 app.use("/api/branches", branchesRoute);
 app.use("/api/stock", stockRoute);
 app.use("/api/Role", RoleRoute);
-app.use("/api/Employees", EmployeesRoute)
+app.use("/api/Employees", EmployeesRoute);
+app.use("/api/clients", clientsRoute);
+app.use("/api/orders" , ordersRoute);
+app.use("/api/services", servicesRoute);
+app.use("/api/servicesProvided", servicesProvided);
 
 
 

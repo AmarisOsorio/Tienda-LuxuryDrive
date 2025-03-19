@@ -3,7 +3,7 @@ import EmployeesModel from "../models/Employees.js"
 
 // Select 
 EmployeesController.getEmployees = async (req, res) => {
-    const Employees = await EmployeesModel.find()
+    const Employees = await EmployeesModel.find().populate("idRole")
     res.json(Employees)
 };
 
