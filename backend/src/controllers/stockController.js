@@ -16,7 +16,7 @@ stockController.getStock = async (req , res) => {
 
 stockController.insertStock = async (req , res) => {
     const { idBranches , idVehicles, quantity } = req.body;
-    const newStock = gradeModel({ idBranches , idVehicles, quantity })
+    const newStock = stockModel({ idBranches , idVehicles, quantity })
     await newStock.save()
     res.json({message: "Stock has been save"})
 };
