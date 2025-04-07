@@ -13,6 +13,8 @@ import ordersRoute from "./src/routes/orders.js";
 import servicesRoute from "./src/routes/services.js";
 import servicesProvided from "./src/routes/servicesProvided.js"
 import resgisterEmployeesRoute from "./src/routes/registerEmployee.js";
+import loginRoute from "./src/routes/login.js";
+import logoutRoute from "./src/routes/logout.js";
 
 const app = express();
 
@@ -31,6 +33,10 @@ app.use("/api/orders" , ordersRoute);
 app.use("/api/services", servicesRoute);
 app.use("/api/servicesProvided", servicesProvided);
 app.use("/api/registerEmployees",resgisterEmployeesRoute);
+
+/* LOGIN */
+app.use("/api/login", loginRoute);
+app.use("/api/logout", logoutRoute);
 
 
 
