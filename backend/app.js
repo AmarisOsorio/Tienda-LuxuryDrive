@@ -1,4 +1,5 @@
 import express from "express";
+import cookieParser from "cookie-parser";
 
 import brandsRoute from "./src/routes/Brands.js"
 import modelsRoute from "./src/routes/models.js"
@@ -11,12 +12,12 @@ import clientsRoute from "./src/routes/clients.js"
 import ordersRoute from "./src/routes/orders.js";
 import servicesRoute from "./src/routes/services.js";
 import servicesProvided from "./src/routes/servicesProvided.js"
+import resgisterEmployeesRoute from "./src/routes/registerEmployee.js";
 
 const app = express();
 
-
 app.use(express.json());
-
+app.use(cookieParser()); // Que acepte cookies
 
 app.use("/api/brands", brandsRoute);
 app.use("/api/models", modelsRoute);
@@ -29,7 +30,7 @@ app.use("/api/clients", clientsRoute);
 app.use("/api/orders" , ordersRoute);
 app.use("/api/services", servicesRoute);
 app.use("/api/servicesProvided", servicesProvided);
-
+app.use("/api/registerEmployees",resgisterEmployeesRoute);
 
 
 

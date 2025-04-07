@@ -24,7 +24,12 @@ const EmployeesShema = new Schema({
         type: Number,
         require: true,
         min : 0
-    }
+    },
+    password: {
+        type: String,
+        require: true,
+        minLength: 4
+      }
 },{
     timestamps: true,
     strict: false
