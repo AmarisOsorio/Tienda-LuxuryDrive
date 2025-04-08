@@ -32,7 +32,7 @@ const Nav = () => {
                     </li>
                    
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/contactanos" className="hover:text-gray-200">
                             Contáctanos
                         </a>
                     </li>
