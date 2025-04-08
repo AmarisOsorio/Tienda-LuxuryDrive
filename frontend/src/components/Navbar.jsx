@@ -26,7 +26,7 @@ const Nav = () => {
                     </li>
 
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/SobreNosotros" className="hover:text-gray-200">
                             Sobre Nosotros 
                         </a>
                     </li>
