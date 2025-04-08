@@ -1,0 +1,72 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div h2{
+    font-size: larger;
+    font-style: bold;
+    color: #042139;
+    align-items: center;
+    margin: 100px;
+    margin-bottom: 5px;
+}
+
+div h3{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6D7365;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+div .circleImg{
+    background-color: #042139;
+    height: 40%;
+    border-radius: 50px;
+    padding: 15px;
+    align-items: center;
+    margin-left: 100px;
+    justify-items: right;
+}
+
+div .circleImg img{
+    width: 175px;
+    align-items: center;
+    justify-content: center;
+}
+
+div .card{
+    background-color: #fff;
+    margin: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 25px;
+    border: solid;
+    border-color:#e4e4e4 ;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-style: normal;
+}
+
+div .card h2{
+    margin-top: 2px;
+    text-align: center;
+    font-size: medium;
+    justify-content: center;
+}
+
+div .car p{
+    margin-top: 2px;
+    font-size: large;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
