@@ -1,6 +1,10 @@
-Amaris Lourdes Osorio Canales 20200003 
-Edenilson Alexander Amaya Benitez 20200004
-José Luis Iraheta Marroquín 20200149
+<h1 align="left">Integrantes: </h1>
+<h3 align="left">Amaris Lourdes Osorio Canales 20200003</h3>
+<h3 align="left">Edenilson Alexander Amaya Benitez 20200004</h3>
+<h3 align="left">José Luis Iraheta Marroquín 20200149</h3>
+
+
+
 
 Este proyecto esta elaborado para ayudar a lo que es una consencionaria su mercado se basa en los vehículos de lujo
 brindado elegancia y comodidad a todos aquellos que estan interesados en este tipo de productos.
