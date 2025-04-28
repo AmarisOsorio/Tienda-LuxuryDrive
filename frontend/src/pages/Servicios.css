@@ -7,7 +7,6 @@ body {
     margin: 0;
     background-color: #f4f4f4;
     color: #000000;
-   
 }
 
 
@@ -46,7 +45,7 @@ div .card .info{
 
 div .card .circleImg{
     background-color: #042139;
-    height: 39%;
+    height: 15%;
     width: 15%;
     border-radius: 50px;
     padding: 5px;
@@ -67,11 +66,10 @@ div .circleImg img{
 div .card{
     background-color: #fff;
     margin: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 20px;
     justify-content: center;
-    padding: 25px;
     border: solid;
     align-items: center;
     border-color:#e4e4e4 ;
