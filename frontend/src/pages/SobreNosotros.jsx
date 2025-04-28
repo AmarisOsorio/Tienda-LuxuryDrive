@@ -66,7 +66,6 @@ Empezó armando pequeños karts los cuales destacaban su diseño, luego a mejora
                 </button>
             </div>
 
-            <Footer />
         </div>
     );
 };

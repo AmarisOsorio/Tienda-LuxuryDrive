@@ -51,7 +51,7 @@ div .card .circleImg{
     border-radius: 50px;
     padding: 5px;
     align-items: center;
-    margin-left: 235px;
+    margin-left: 15px;
     justify-content: center;
 }
 
@@ -67,7 +67,7 @@ div .circleImg img{
 div .card{
     background-color: #fff;
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
     justify-content: center;

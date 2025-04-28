@@ -4,6 +4,7 @@ import Inicio from './pages/Inicio'
 import ContactPage from './pages/Contactanos'
 import Servicios from './pages/servicios'
 import SobreNosotros from './pages/SobreNosotros'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
          </Routes>
       </Router>
+
+      <Footer />
     </>
+
 
   )
 }
