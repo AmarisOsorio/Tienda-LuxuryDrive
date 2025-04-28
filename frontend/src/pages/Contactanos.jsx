@@ -11,8 +11,8 @@ const ContactPage = () => {
                 </div>
             </header>
 
-            
-                <h2 id='Contáctanos'>Contáctanos</h2>
+            <div className='conteiner'>
+                <h2 id='Contactanos'>Contáctanos</h2>
                 <p id='hola'>Le atenderemos lo más pronto posible</p>
                 <section className="contact-section">
                     <form>
@@ -30,31 +30,36 @@ const ContactPage = () => {
 
             <section className="info-section">
                 <div className="info-box">
+                    <img className='imgCudros' src="https://cdn-icons-png.flaticon.com/512/67/67347.png" alt="" />
+                    <p className='title-wrapper'>Encuentranos</p>
                     <p className='text-wrapper'>Calle del mirador &, 87 Avenida Norte, San Salvador</p>
                 </div>
                 <div className="info-box">
-                    <h3>Email</h3>
-                    <p>contacto@luxurydrive.com</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/4213/4213922.png" alt="" />
+                    <p className='title-wrapper'>Email</p>
+                    <p className='text-wrapper'>@luxuyDrive</p>
                 </div>
                 <div className="info-box">
-                    <h3>Teléfono</h3>
-                    <p>Call center: 2523 - 8573</p>
-                    <p>Oficina central: 7264 - 2533</p>
+                <img className='imgCudros' src="https://images.icon-icons.com/2715/PNG/512/phone_icon_172267.png" alt="" />
+                    <p className='title-wrapper'>Telefono</p>
+                    <p className='text-wrapper'>2253-8573</p>
                 </div>
             </section>
 
             <section className="hours-section">
-                <h3>Horarios de atención</h3>
-                <p><strong>Sucursales:</strong> Lunes a Viernes de 9:00 am a 5:30 pm</p>
-                <p><strong>Call Center & Oficina Central:</strong> Lunes a Viernes de 9:00 am a 9:30 pm</p>
-                <p><strong>Sabados:</strong> 8:00 am a 12:00 pm</p>
+                <img src="https://www.google.com/maps/vt/data=vh8cHHCb6pa1WdpcARwn0EVGDu2MxEmjGIknmMmLMIpU05PK72Lc2pvngrmF8t_D-Gxk1czAafNwZwdrkxJz3Pmrr1tjb0Dl-qDoebLuOYz3d_ozPTPlDqEzKZsVdN8da2_l1OHdFPMx39qTglKe2Z3569HomThkStDiZ-K7Nhj61BD9OSlrmvmCpOPBS_sMXa3-sV8sOG-37mzDQ9-S3rm49HhvqOv1X9pqbKxKjEgUWNWiHBUjSWhWqS8EqIrj9morayTonYMWpxs_lizmV2QvyoSvEtBOmg" alt="" />
+                <div className='box-horarios'>
+                <p className='title-horarios'>Horarios de atención</p>
+                <p className='text-horarios'>Lunes a Viernes: 8:00 am - 5:00 pm</p>
+                <p className='text-horarios'>Sábado: 8:00 am - 12:00 pm</p>
+                <p className='text-horarios'>Domingo: Cerrado</p>
+                </div>
             </section>
 
-            <footer className="footer">
-                <p>Luxury Drive</p>
-                <p>Desarrolladores | Términos y Condiciones</p>
-                <p>Copyright, © Nombre del módulo</p>
-            </footer>
+            </div>
+
+          
+            
         </div>
     );
 };

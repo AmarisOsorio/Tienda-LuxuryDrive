@@ -23,19 +23,20 @@ h1 {
     padding-left: 140px;
 }
 
-h2 {
-    font-size: 2em;
+#Contactanos {
+    font-size: 3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;  
     margin: 0;
     text-align: center;
     text-shadow: 5px 5px 6px rgba(155, 155, 155, 0.5);
     align-items: center;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 35px;
 }
 
 #hola {
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;  
     margin: 0;
@@ -148,42 +149,104 @@ textarea {
 }
 
 .info-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
     border-radius: 8px;
-    margin: 20px;
+    justify-content: center;
 }
 
 .info-box {
     background-color: #a0bbd359; /* Semi-transparent background */
     border-radius: 25px;
     height: 238px;
-    width: 399px;
+    width: 350px;
     position: relative; /* Changed to relative for better control */
-    margin: 20px auto; /* Center the rectangle */
+    margin: 38px ; /* Center the box */
 }
 
 
 .text-wrapper {
     font-family: 'Poppins', sans-serif; /* Ensure Poppins font is available */
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
     position: absolute;
-    left: 50%; /* Center horizontally */
-    top: 50%; /* Center vertically */
+    color: #7e9cb6;
+    left: 70%; /* Center horizontally */
+    top: 55%; /* Center vertically */
     transform: translate(-50%, -50%); /* Adjust position to center */
-    width: 416px; /* Fixed width for the text wrapper */
+    width: 170px; /* Fixed width for the text wrapper */
 }
 
+.title-wrapper {
+    font-family: 'Poppins', sans-serif; /* Ensure Poppins font is available */
+    font-size: 22px;
+    color: #28609c;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    position: absolute;
+    left: 70%; /* Center horizontally */
+    top: 20%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    width: 170px; /* Fixed width for the text wrapper */
+
+}
+
+.info-box img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 55px; /* Adjust as needed */
+    left: 5px; /* Adjust as needed */
+}
 
 
 .hours-section {
     padding: 20px;
     text-align: center;
 }
+
+.text-horarios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    color: #7e9cb6;
+    padding-top: 30px;
+}
+
+.title-horarios{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #28609c;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-horarios {
+    background-color: #a0bbd359; /* Semi-transparent background */
+    border-radius: 25px;
+    height: 238px;
+    width: 350px;
+    position: relative; /* Changed to relative for better control */
+    margin: 38px ; /* Center the box */
+    
+}
+
+.hours-section img {
+    width: 600px;
+    height: 350px;
+    top: 25px; /* Adjust as needed */
+    left: 300px; /* Adjust as needed */
+    position: relative;
+    margin-right: 400px;
+    
+}
+
+
 
 .footer {
     background-color: #333;
