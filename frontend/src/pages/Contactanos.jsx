@@ -12,8 +12,8 @@ const ContactPage = () => {
             </header>
 
             
-                <h2>Contáctanos</h2>
-                <h3>Le atenderemos lo más pronto posible</h3>
+                <h2 id='Contáctanos'>Contáctanos</h2>
+                <p id='hola'>Le atenderemos lo más pronto posible</p>
                 <section className="contact-section">
                     <form>
                         <div id ="input-group">
@@ -30,8 +30,7 @@ const ContactPage = () => {
 
             <section className="info-section">
                 <div className="info-box">
-                    <h3>Encuentranos</h3>
-                    <p>Calle del mirador & 87 Avenida Norte, San Salvador</p>
+                    <p className='text-wrapper'>Calle del mirador &, 87 Avenida Norte, San Salvador</p>
                 </div>
                 <div className="info-box">
                     <h3>Email</h3>
