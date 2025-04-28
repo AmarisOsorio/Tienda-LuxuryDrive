@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #ececec;
+}
+
+.header-contact {
+    background: url('https://cdn.pixabay.com/photo/2021/09/20/23/03/car-6642036_1280.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
