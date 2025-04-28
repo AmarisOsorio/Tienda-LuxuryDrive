@@ -1,0 +1,152 @@
+.sobre-nosotros {
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 400px; 
+}
+
+.historia {
+    flex: 3; 
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.fundador {
+    flex: 1; 
+    text-align: center; 
+    padding: 10px;
+}
+
+.FundadorIMG {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-top: 10px; 
+}
+
+.mision-vision {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.mision, .vision {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.valores {
+    margin-top: 20px;
+    text-align: left; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.header-Carrito {
+    background-image: url('https://di-uploads-pod14.dealerinspire.com/downtownlamotorsmercedesbenz/uploads/2025/01/2025-Mercedes-Benz-G-Wagon.png');
+    height: 300px;
+    padding: 60px 20px; 
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px; 
+    border-radius: 8px; 
+}
+
+
+.header-Carrito h1 {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    font-size: 3em; 
+    max-width: 80%;
+}
+
+.carousel-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    height: 300px; 
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+/* Asegurar que el carousel-inner ocupe todo el contenedor */
+.carousel-container .carousel-inner {
+    height: 100%;
+}
+
+/* Esto es crítico para evitar sobreposición */
+.carousel-container .carousel-item {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Solo el elemento activo es visible */
+.carousel-container .carousel-item.active {
+    visibility: visible;
+    position: relative;
+}
+
+/* El tamaño de las imágenes */
+.carousel-container .carousel-item img {
+    height: 200px;
+    width: auto;
+    max-width: 60%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mejora la visibilidad de los controles */
+.carousel-control-prev, .carousel-control-next {
+    opacity: 0.8;
+    z-index: 5;
+}

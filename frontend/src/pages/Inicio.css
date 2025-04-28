@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #ececec;
+    text-align: center;
+}
+
+.header-contact {
+    background: url('https://cdn.pixabay.com/photo/2021/09/20/23/03/car-6642036_1280.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+section div{
+    justify-content: center;
+    
+}
+
+.container-section{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+section div img{
+    height: 350px;
+    width: 15000px;
+    border-radius: 75px;
+    padding: 45px;
+    margin:25px;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+  }
+  
+.bottom-centered{
+    position: absolute;
+    bottom: 6px; 
+    left: 50%;
+    transform: translatex(-50%);
+}

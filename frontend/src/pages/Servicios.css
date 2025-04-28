@@ -2,11 +2,29 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+   
+}
+
+
+.header-contact {
+    background: url('https://cdn.pixabay.com/photo/2021/09/20/23/03/car-6642036_1280.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
 div h2{
     font-size: larger;
     font-style: bold;
     color: #042139;
     align-items: center;
+    text-align: left;
     margin: 100px;
     margin-bottom: 5px;
 }
@@ -16,35 +34,46 @@ div h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #6D7365;
     align-items: center;
+    text-align: left;
     margin-top: 5px;
     margin-left: 100px;
     margin-bottom: 0px;
 }
 
-div .circleImg{
+div .card .info{
+    padding: 5px;
+}
+
+div .card .circleImg{
     background-color: #042139;
-    height: 40%;
+    height: 39%;
+    width: 15%;
     border-radius: 50px;
-    padding: 15px;
+    padding: 5px;
     align-items: center;
-    margin-left: 100px;
-    justify-items: right;
+    margin-left: 15px;
+    justify-content: center;
 }
 
 div .circleImg img{
     width: 175px;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 div .card{
     background-color: #fff;
-    margin: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     border-radius: 20px;
+    justify-content: center;
     padding: 25px;
     border: solid;
+    align-items: center;
     border-color:#e4e4e4 ;
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     font-style: normal;
@@ -52,9 +81,11 @@ div .card{
 
 div .card h2{
     margin-top: 2px;
-    text-align: center;
     font-size: medium;
-    justify-content: center;
+    margin-left: -170px;
+    margin-right: -3px;
+    justify-content: left;
+    text-align: center;
 }
 
 div .car p{
