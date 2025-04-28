@@ -1,5 +1,6 @@
 import React from "react";
 import "./SobreNosotros.css";
+import Footer from "../components/Footer";
 
 const SobreNosotros = () => { 
     return (
@@ -64,6 +65,8 @@ Empezó armando pequeños karts los cuales destacaban su diseño, luego a mejora
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+
+            <Footer />
         </div>
     );
 };
