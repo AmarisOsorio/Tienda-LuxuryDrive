@@ -4,7 +4,6 @@ const Nav = () => {
     return (
         <nav className="bg-blue-600 text-white shadow-md">
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-                <div className="text-lg font-bold">MyApp</div>
                 <ul className="flex space-x-4">
                    
                     <li>
@@ -20,7 +19,7 @@ const Nav = () => {
                     </li>
 
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/servicios" className="hover:text-gray-200">
                             Servicios
                         </a>
                     </li>
@@ -32,7 +31,7 @@ const Nav = () => {
                     </li>
                    
                     <li>
-                        <a href="#" className="hover:text-gray-200">
+                        <a href="/contactanos" className="hover:text-gray-200">
                             Contáctanos
                         </a>
                     </li>
