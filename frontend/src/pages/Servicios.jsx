@@ -31,7 +31,7 @@ const servicios = [
       <>
      <div>
 
-             <header className="header-contact">
+             <header className="header-contact9">
                 <div id="header-contact-text">
                     <h1>Ofrecemos la </h1>
                     <h1>mejor atención a</h1>
