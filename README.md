@@ -4,13 +4,15 @@
 <h5 align="left">José Luis Iraheta Marroquín 20200149</h5>
 
 
-# 💫 Informacion del proyecto:
-
-<body>
   # 🚗 Luxury Drive
 
 **Luxury Drive** es un proyecto diseñado para impulsar a una concesionaria especializada en vehículos de lujo.  
 Nuestra misión es ofrecer **elegancia** y **comodidad** a todos aquellos interesados en este exclusivo mercado.
+
+# 💫 Informacion del proyecto:
+
+<body>
+
   <p>
     Contamos con una <strong>aplicación móvil innovadora</strong> que permite a nuestros clientes explorar los nuevos modelos
     que ingresan cada año a nuestras tiendas.
