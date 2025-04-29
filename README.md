@@ -9,21 +9,12 @@
 **Luxury Drive** es un proyecto diseñado para impulsar a una concesionaria especializada en vehículos de lujo.  
 Nuestra misión es ofrecer **elegancia** y **comodidad** a todos aquellos interesados en este exclusivo mercado.
 
-# 💫 Informacion del proyecto:
+Contamos con una **aplicación móvil innovadora** que permite a nuestros clientes explorar los nuevos modelos  
+que ingresan cada año a nuestras tiendas.
 
-<body>
+Además, la app ofrece la posibilidad de realizar la **compra del vehículo directamente desde su dispositivo móvil**.  
+Así, al momento de retirar el auto, solo será necesario presentar la documentación proporcionada por la aplicación.
 
-  <p>
-    Contamos con una <strong>aplicación móvil innovadora</strong> que permite a nuestros clientes explorar los nuevos modelos
-    que ingresan cada año a nuestras tiendas.
-  </p>
-  <p>
-    Además, la app ofrece la posibilidad de realizar la <strong>compra del vehículo directamente desde su dispositivo móvil</strong>.
-    Así, al momento de retirar el auto, solo será necesario presentar la documentación proporcionada por la aplicación.
-  </p>
-  <p>
-    Con estas funciones, <strong>Luxury Drive</strong> se posiciona como una marca moderna, eficiente y a la vanguardia del
-    sector automotriz de lujo.
-  </p>
-</body>
-</html>
+Con estas funciones, se posiciona como una marca moderna, eficiente y a la vanguardia del  
+sector automotriz de lujo.
+
