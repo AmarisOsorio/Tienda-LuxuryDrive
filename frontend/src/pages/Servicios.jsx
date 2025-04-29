@@ -9,17 +9,17 @@ const servicios = [
       description: 'Servicio profesional de mantenimiento y reparación.'
     },
     {
-      iconName: 'seguros.svg',
+      iconName: 'image1.png',
       title: 'Agencia de seguros',
       description: 'Protege tu auto con las mejores aseguradoras.'
     },
     {
-      iconName: 'asesor.svg',
+      iconName: 'image2.png',
       title: 'Asesoría Personalizada',
       description: 'Te guiamos para encontrar el vehículo ideal.'
     },
     {
-      iconName: 'financiamiento.svg',
+      iconName: 'image3.png',
       title: 'Planes de Financiamiento',
       description: 'Opciones flexibles que se adaptan a tus necesidades.'
     }
@@ -44,7 +44,7 @@ const servicios = [
 
         <section className="services-section">
 
-          {/* Grid de tarjetas */}
+          
           <div className="services-grid">
             {servicios.map((servicio, index) => (
               <ServiceCard

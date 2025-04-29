@@ -1,50 +1,111 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #ececec;
-    text-align: center;
-}
-
-.header-contact {
-    background: url('https://cdn.pixabay.com/photo/2021/09/20/23/03/car-6642036_1280.jpg') no-repeat center center/cover;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-section div{
-    justify-content: center;
-    
-}
-
-.container-section{
-    position: relative;
-  text-align: center;
-  color: white;
-}
-
-
-section div img{
-    height: 350px;
-    width: 15000px;
-    border-radius: 75px;
-    padding: 45px;
-    margin:25px;
-    
-}
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    transform: translate(-50%, -50%);
+.home {
+    font-family: 'Segoe UI', sans-serif;
+    color: #1a1a1a;
+    padding: 0 2rem;
   }
   
-.bottom-centered{
-    position: absolute;
-    bottom: 6px; 
-    left: 50%;
-    transform: translatex(-50%);
-}
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #002f66;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    width: 450px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .brands {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  .brands-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .brands-logos img {
+    height: 50px;
+  }
+  
+  .promo-banner {
+    position: relative;
+    background-image: url('https://cdn.buttercms.com/X7MzF0tzTPy5pd8TqAFB'); /* Cambia esta ruta */
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .promo-overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Panel negro translúcido */
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .promo-content {
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .promo-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .promo-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .trending {
+    margin-bottom: 3rem;
+  }
+  
+  
