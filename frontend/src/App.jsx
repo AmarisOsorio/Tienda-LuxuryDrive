@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router'
 import Navbar from './components/Navbar'
 import Inicio from './pages/Inicio'
 import ContactPage from './pages/Contactanos'
-import Servicios from './pages/servicios'
+import Servicios from './pages/Servicios'
 
 import SobreNosotros from './pages/SobreNosotros'
 import Footer from './components/Footer'
@@ -26,6 +26,8 @@ function App() {
 
          </Routes>
       </Router>
+
+      
 
       <Footer />
     </>
