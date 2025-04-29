@@ -7,10 +7,10 @@
 # 💫 Informacion del proyecto:
 
 <body>
-  <p>
-    <strong>Luxury Drive</strong> es un proyecto diseñado para impulsar a una concesionaria especializada en vehículos de lujo.
-    Nuestra misión es ofrecer elegancia y comodidad a todos aquellos interesados en este exclusivo mercado.
-  </p>
+  # 🚗 Luxury Drive
+
+**Luxury Drive** es un proyecto diseñado para impulsar a una concesionaria especializada en vehículos de lujo.  
+Nuestra misión es ofrecer **elegancia** y **comodidad** a todos aquellos interesados en este exclusivo mercado.
   <p>
     Contamos con una <strong>aplicación móvil innovadora</strong> que permite a nuestros clientes explorar los nuevos modelos
     que ingresan cada año a nuestras tiendas.
