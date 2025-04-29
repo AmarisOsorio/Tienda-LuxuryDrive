@@ -18,3 +18,8 @@ Así, al momento de retirar el auto, solo será necesario presentar la documenta
 Con estas funciones, se posiciona como una marca moderna, eficiente y a la vanguardia del  
 sector automotriz de lujo.
 
+## Características Principales
+- Variedad de vehículos de lujo.
+- Aplicación móvil innovadora.
+- Opción de compra directa desde la app
+
