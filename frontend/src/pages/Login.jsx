@@ -4,20 +4,20 @@ import './Login.css'; // Asegúrate de crear este archivo CSS
 
 const Login = () => {
   return (
-    <body id='bodyLogin'>
+    <div id="bodyLogin">
     <div className="login-container">
       <div className="logo">
         <img src="../../public/img/Group 59.png" alt="Logo" />
       </div>
       <h2>Log In</h2>
-      <form>
-        <div className="input-group">
+      <form id='formLogin'>
+        <div className="input-group-login">
           <label htmlFor="username">Usuario</label>
-          <input type="text" id="username" placeholder="Usuario" required />
+          <input type="text" placeholder='Usuario' className='input-login'/>
         </div>
-        <div className="input-group">
+        <div className="input-group-login">
           <label htmlFor="password">Contraseña</label>
-          <input type="password" id="password" placeholder="Contraseña" required />
+          <input type="password" placeholder='Contraseña' className='input-login'/>
         </div>
         <div className="forgot-password">
           <p>¿Olvidaste la contraseña? </p> 
@@ -26,7 +26,7 @@ const Login = () => {
         <button type="submit">Ingresar</button>
       </form>
     </div>
-    </body>
+    </div>
     
   );
 };

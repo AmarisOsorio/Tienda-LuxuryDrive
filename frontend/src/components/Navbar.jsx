@@ -44,10 +44,6 @@ const Navbar = () => {
 
           Login
 
-          <a href="/MiPerfil">
-            Log in
-            </a>
-
         </button>
         </a>
       </div>

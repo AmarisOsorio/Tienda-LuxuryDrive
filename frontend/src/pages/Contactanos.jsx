@@ -3,7 +3,7 @@ import '../pages/Contactanos.css'; // Import the CSS file for styling
 
 const ContactPage = () => {
     return (
-        <body id='bodyContact'>
+        <div id='bodyContact'>
         <div>
             <header className="header-contact">
                 <div id="header-contact-text">
@@ -18,9 +18,9 @@ const ContactPage = () => {
                 <section className="contact-section">
                     <form>
                         <div id ="input-group">
-                            <input type="text" placeholder="Nombre" required />
+                            <input type="text" placeholder="Nombre" required id='NombreContactanos'/>
                             
-                            <input type="tel" placeholder="Teléfono" required />
+                            <input type="tel" placeholder="Teléfono" required id='TelefonoContactanos'/>
                         </div>
 
                         <input type="email" placeholder="Email" required />
@@ -62,7 +62,7 @@ const ContactPage = () => {
           
             
         </div>
-        </body>
+        </div>
     );
 };
 

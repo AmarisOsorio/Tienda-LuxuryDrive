@@ -72,7 +72,7 @@ h1 {
     padding: 30px;
 }
 
-div input{
+#NombreContactanos{
     border-radius: 60px;
     border:#A1BBD1 1px solid;
     padding: 8px;
@@ -81,7 +81,18 @@ div input{
     background-color: #C8D8E5;
 }
 
-input::placeholder{
+#TelefonoContactanos{
+    border-radius: 60px;
+    border:#A1BBD1 1px solid;
+    padding: 8px;
+    padding-right: 300px;
+    margin: 12px 0;
+    background-color: #C8D8E5;
+}
+
+
+
+.contact-section input::placeholder{
     text-align: left;
     justify-content: left;
     align-items: left;
