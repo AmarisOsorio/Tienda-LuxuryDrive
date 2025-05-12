@@ -41,7 +41,13 @@ const Navbar = () => {
         </ul>
         <a href="/Login">
         <button className="border border-white text-white rounded-full px-6 py-1 hover:bg-white hover:text-[#0c1621] transition">
+
           Login
+
+          <a href="/MiPerfil">
+            Log in
+            </a>
+
         </button>
         </a>
       </div>
