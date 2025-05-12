@@ -6,6 +6,7 @@ import ContactPage from './pages/Contactanos'
 import Servicios from './pages/Servicios'
 import SobreNosotros from './pages/SobreNosotros'
 import Terminos from './pages/Terminos'
+import Dashboard from './pages/Dashboard'
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
             <Route path="/Terminos" element={<Terminos />} />
+            <Route path="/Dashboard" element={<Dashboard />} />
          </Routes>
       </Router>
 
