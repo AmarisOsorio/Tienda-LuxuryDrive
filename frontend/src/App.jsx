@@ -7,6 +7,7 @@ import Servicios from './pages/Servicios'
 import SobreNosotros from './pages/SobreNosotros'
 import Footer from './components/Footer'
 import Login from './pages/Login'
+import PasswordRecovery from './pages/RecuperacionContraseña'
 
 
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
             <Route path="/Login" element={<Login/>} />
+            <Route path="/RecuperacionContraseña" element={<PasswordRecovery />} />
 
          </Routes>
       </Router>

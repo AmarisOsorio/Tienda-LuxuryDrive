@@ -1,4 +1,4 @@
-body {
+#bodyLogin {
     background-image: url('../../public/img/Desktop\ -\ 14\ \(1\).png'); /* Cambia la URL por la de tu imagen */
     color: #eaeaea;
     font-family: 'Arial', sans-serif;
@@ -27,14 +27,7 @@ body {
     width: 300px;
   }
   
-  input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #3a3a4a;
-    background-color: #2a2a36;
-    color: #eaeaea;
-  }
+  
   
   input::placeholder {
     color: #a0a0a0;
