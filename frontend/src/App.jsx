@@ -6,6 +6,7 @@ import ContactPage from './pages/Contactanos'
 import Servicios from './pages/Servicios'
 import SobreNosotros from './pages/SobreNosotros'
 import Terminos from './pages/Terminos'
+import MiPerfil from './pages/MiPerfil'
 
 
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
             <Route path="/Terminos" element={<Terminos />} />
+            <Route path="/MiPerfil" element={<MiPerfil />} />
          </Routes>
       </Router>
 

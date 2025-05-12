@@ -41,7 +41,9 @@ const Navbar = () => {
         </ul>
        
         <button className="border border-white text-white rounded-full px-6 py-1 hover:bg-white hover:text-[#0c1621] transition">
-          Log in
+          <a href="/MiPerfil">
+            Log in
+            </a>
         </button>
       </div>
     </nav>
