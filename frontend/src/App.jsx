@@ -5,7 +5,12 @@ import Inicio from './pages/Inicio'
 import ContactPage from './pages/Contactanos'
 import Servicios from './pages/Servicios'
 import SobreNosotros from './pages/SobreNosotros'
+
+import Login from './pages/Login'
+import PasswordRecovery from './pages/RecuperacionContraseña'
+
 import Terminos from './pages/Terminos'
+
 
 
 
@@ -22,7 +27,13 @@ function App() {
             <Route path="/contactanos" element={<ContactPage />} />
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
+
+            <Route path="/Login" element={<Login/>} />
+            <Route path="/RecuperacionContraseña" element={<PasswordRecovery />} />
+
+
             <Route path="/Terminos" element={<Terminos />} />
+
          </Routes>
       </Router>
 

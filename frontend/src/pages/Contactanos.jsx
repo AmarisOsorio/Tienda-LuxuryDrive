@@ -3,6 +3,7 @@ import '../pages/Contactanos.css'; // Import the CSS file for styling
 
 const ContactPage = () => {
     return (
+        <body id='bodyContact'>
         <div>
             <header className="header-contact">
                 <div id="header-contact-text">
@@ -61,6 +62,7 @@ const ContactPage = () => {
           
             
         </div>
+        </body>
     );
 };
 
