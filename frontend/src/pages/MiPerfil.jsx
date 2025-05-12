@@ -24,7 +24,9 @@ const MiPerfil = () => {
   };
 
   return (
-    <div className="mi-perfil-container">
+
+    <div id="bodyMiPerfil">
+      <div className="mi-perfil-container">
       
       <div className="mi-perfil-imagen-container">
         <img
@@ -72,6 +74,7 @@ const MiPerfil = () => {
       <button onClick={toggleEdicion} className="mi-perfil-boton">
         {modoEdicion ? "Guardar" : "Editar"}
       </button>
+    </div>
     </div>
   );
 };

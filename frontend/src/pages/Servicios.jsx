@@ -29,7 +29,9 @@ const servicios = [
     return (
         
       <>
-     <div>
+
+      <div id="bodyServicios">
+        <div>
 
              <header className="header-contact9">
                 <div id="header-contact-text">
@@ -58,6 +60,8 @@ const servicios = [
         </section>
      </div>
 
+      </div>
+     
      
      
       </>
