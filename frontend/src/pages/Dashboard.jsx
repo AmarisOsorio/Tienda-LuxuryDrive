@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Bell, Car, Settings, BarChart3, Megaphone } from 'lucide-react';
 
 export default function Dashboard() {
-  // Estado para controlar las secciones (podrías expandir esto según necesites)
+  // Estado para controlar las secciones 
   const [activeSection, setActiveSection] = useState(null);
 
   // Datos para la gráfica de tendencias en ventas

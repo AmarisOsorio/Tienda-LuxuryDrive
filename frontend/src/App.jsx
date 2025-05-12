@@ -7,6 +7,8 @@ import Servicios from './pages/Servicios'
 import SobreNosotros from './pages/SobreNosotros'
 import Terminos from './pages/Terminos'
 import Dashboard from './pages/Dashboard'
+import Ventas from './pages/Ventas'
+import Importaciones from './pages/Importaciones'
 
 
 
@@ -24,6 +26,8 @@ function App() {
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
             <Route path="/Terminos" element={<Terminos />} />
             <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/Ventas" element={<Ventas />} />
+            <Route path="/Importaciones" element={<Importaciones />} />
          </Routes>
       </Router>
 
