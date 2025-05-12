@@ -1,4 +1,4 @@
-// Navbar.jsx
+// Menu de Aministrador
 import React from "react";
 
 const Navbar = () => {
@@ -11,41 +11,26 @@ const Navbar = () => {
           
           <li className="relative">
             <a
-              href="/"
+              href="#"
               className="text-[#a78bfa] underline underline-offset-[6px] decoration-2 decoration-[#a78bfa]"
             >
-              Inicio
+              Dashboard
             </a>
           </li>
           
           <li>
             <a href="#" className="hover:text-[#a78bfa] transition">
-              Catálogo
+              Empleados
             </a>
           </li>
           <li>
-            <a href="/servicios" className="hover:text-[#a78bfa] transition">
-              Servicios
+            <a href="/MiPerfil" className="hover:text-[#a78bfa] transition">
+              Perfil
             </a>
           </li>
-          <li>
-            <a href="/SobreNosotros" className="hover:text-[#a78bfa] transition">
-              Sobre nosotros
-            </a>
-          </li>
-          <li>
-            <a href="/contactanos" className="hover:text-[#a78bfa] transition">
-              Contáctanos
-            </a>
-          </li>
+        
         </ul>
-        <a href="/Login">
-        <button className="border border-white text-white rounded-full px-6 py-1 hover:bg-white hover:text-[#0c1621] transition">
-
-          Login
-
-        </button>
-        </a>
+        
       </div>
     </nav>
   );

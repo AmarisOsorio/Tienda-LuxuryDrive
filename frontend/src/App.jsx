@@ -12,15 +12,21 @@ import PasswordRecovery from './pages/RecuperacionContraseña'
 import Terminos from './pages/Terminos'
 
 
+import NavbarAdmin from './components/NavbarAdmin'
+import MiPerfil from './pages/MiPerfil'
+
 
 
 
 function App() {
 
+         
+
   return (
     <>
     
-    <Navbar />
+    <Navbar/>
+    <NavbarAdmin />
       <Router>
           <Routes>
             <Route path="/" element={<Inicio />} />
@@ -28,11 +34,13 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
 
-            <Route path="/Login" element={<Login/>} />
+            <Route  path="/Login" element={<Login/>} />
             <Route path="/RecuperacionContraseña" element={<PasswordRecovery />} />
 
-
             <Route path="/Terminos" element={<Terminos />} />
+            <Route path="/MiPerfil" element={<MiPerfil />} />
+
+            
 
          </Routes>
       </Router>
