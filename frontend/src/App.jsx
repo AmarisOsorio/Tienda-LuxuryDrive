@@ -10,6 +10,9 @@ import Login from './pages/Login'
 import PasswordRecovery from './pages/RecuperacionContraseña'
 
 import Terminos from './pages/Terminos'
+import Dashboard from './pages/Dashboard'
+import Ventas from './pages/Ventas'
+import Importaciones from './pages/Importaciones'
 
 
 import NavbarAdmin from './components/NavbarAdmin'
@@ -38,9 +41,15 @@ function App() {
             <Route path="/RecuperacionContraseña" element={<PasswordRecovery />} />
 
             <Route path="/Terminos" element={<Terminos />} />
+
+            <Route path="/Dashboard" element={<Dashboard />} />
+            <Route path="/Ventas" element={<Ventas />} />
+            <Route path="/Importaciones" element={<Importaciones />} />
+
             <Route path="/MiPerfil" element={<MiPerfil />} />
 
             
+
 
          </Routes>
       </Router>
