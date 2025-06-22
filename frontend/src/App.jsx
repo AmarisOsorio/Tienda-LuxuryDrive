@@ -37,16 +37,14 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/SobreNosotros" element={<SobreNosotros />} />
 
-            <Route  path="/Login" element={<Login/>} />
-            <Route path="/RecuperacionContraseña" element={<PasswordRecovery />} />
-
+           
             <Route path="/Terminos" element={<Terminos />} />
 
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/Ventas" element={<Ventas />} />
             <Route path="/Importaciones" element={<Importaciones />} />
 
-            <Route path="/MiPerfil" element={<MiPerfil />} />
+           
 
             
 
