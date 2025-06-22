@@ -3,10 +3,12 @@
      name
      address
      email
+     password
      telephone
      dui
      driversLicense
      monthlyIncome
+     
 */
 
 import { Schema , model } from "mongoose";
@@ -27,6 +29,10 @@ const clientsSchema = new Schema({
       require: true,
       maxLength: 100
     },
+    password: {
+        type: String,
+        require: true
+      },
     telephone: {
         type: String,
         maxLength: 100

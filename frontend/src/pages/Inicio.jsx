@@ -1,5 +1,6 @@
 import React from "react";
 import "./Inicio.css"
+import ImagenInicio from "../../public/img/Group 64.png"
 
 
 function Inicio() {
@@ -8,18 +9,17 @@ function Inicio() {
       <div className="hero">
   <div className="hero-text">
     <h1>Luxury Drive</h1>
-    <p>"Domina la carretera con clase"</p>
+    <h3>"Domina la carretera con clase"</h3>
     <p>
       Nos especializamos en vehículos de alta gama, desde superdeportivos y sedanes ejecutivos hasta SUVs de lujo y autos eléctricos premium.
     </p>
     <button className="btn-primary">Conoce más</button>
   </div>
   <div className="hero-image">
-    <img src="https://www.pngmart.com/files/22/Porsche-Taycan-PNG-Image.png" alt="Luxury Car" />
+    <img src={ImagenInicio} alt="Luxury Car" />
   </div>
 </div>
 
-      
       <section className="brands">
         <h2>Marcas populares</h2>
         <div className="brands-logos">
