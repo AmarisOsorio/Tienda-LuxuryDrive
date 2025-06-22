@@ -87,9 +87,9 @@ const Login = () => {
       </form> 
       <div className="register-link"> 
         <p>¿No tienes cuenta? </p> 
-        <Link to="/registro">
+        
           <a href="/registro">Registrarse</a>
-        </Link> 
+        
       </div> 
       <Toaster position="top-right" /> 
     </div> 

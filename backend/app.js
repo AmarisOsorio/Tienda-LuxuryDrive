@@ -22,7 +22,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Dominio del cliente
+    origin: ['http://localhost:3000', 'http://localhost:5173'], // Dominio del cliente
     credentials: true, // Permitir envío de cookies y credenciales
   })
 );
