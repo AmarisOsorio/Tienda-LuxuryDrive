@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
           
           <li>
-            <a href="#" className="hover:text-[#a78bfa] transition">
+            <a href="/catalogo" className="hover:text-[#a78bfa] transition">
               Catálogo
             </a>
           </li>

@@ -6,11 +6,12 @@ import ContactPage from './pages/Contactanos';
 import Servicios from './pages/Servicios';
 import SobreNosotros from './pages/SobreNosotros';
 import { ClientAuthProvider } from "./context/ClientAuthContext";
-
 import Login from './pages/Login';
 import PasswordRecovery from './pages/RecuperacionContraseña';
 import Registro from './pages/Registro';
 import Terminos from './pages/Terminos';
+import Catalogo from './pages/Catalogo';
+import CartVehicles from './pages/CartVehicles';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/contactanos" element={<ContactPage />} />
+          <Route path="/catalogo" element={<Catalogo />} />
+          <Route path="/carrito-vehiculos" element={<CartVehicles />} />
           <Route path="/servicios" element={<Servicios />} />
           <Route path="/SobreNosotros" element={<SobreNosotros />} />
           <Route path="/Login" element={<Login />} />

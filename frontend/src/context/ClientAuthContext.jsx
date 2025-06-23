@@ -2,7 +2,6 @@ import { createContext, useContext, useState, useEffect, useCallback } from "rea
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 
-
 export const ClientAuthContext = createContext(null); 
 
 // Hook personalizado con validación
@@ -102,16 +101,22 @@ export const ClientAuthProvider = ({ children }) => {
       if (response.ok) {
         // Guardar datos en localStorage
         localStorage.setItem("clientToken", data.token);
-        localStorage.setItem("clientData", JSON.stringify(data.client));
+        localStorage.setItem("clientData", JSON.stringify(data.client || data.user));
         
         // Actualizar estado
         setClientToken(data.token);
-        setClient(data.client);
+        setClient(data.client || data.user);
         
         toast.success("Inicio de sesión exitoso");
         
-        // Redirigir a la tienda o página principal
-        navigate("/");
+        // Redirigir según el tipo de usuario
+        if (data.user && data.user.userType === "Admin") {
+          navigate("/admin");
+        } else if (data.user && data.user.userType === "Employee") {
+          navigate("/employee");
+        } else {
+          navigate("/");
+        }
         
         return true;
       } else {
@@ -127,19 +132,21 @@ export const ClientAuthProvider = ({ children }) => {
 
   const register = async (userData) => {
     try {
-      const response = await fetch(`${API_URL}/registerClients`, {
+      const response = await fetch(`${API_URL}/registerClients/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(userData),
+        credentials: "include",
       });
 
+      const data = await response.json();
+
       if (response.ok) {
-        toast.success("Cuenta registrada correctamente. Ya puedes iniciar sesión.");
+        toast.success("Cuenta registrada correctamente. Revisa tu email para verificar tu cuenta.");
         return true;
       } else {
-        const data = await response.json();
         toast.error(data.message || "Error al registrar");
         return false;
       }
