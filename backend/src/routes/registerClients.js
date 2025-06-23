@@ -4,8 +4,7 @@ import registerClientsController from "../controllers/registerClientsController.
 
 const router = express.Router();
 
-router.route("/")
-.post(registerClientsController.register)
+router.route("/register").post(registerClientsController.register)
 router.route("/verifyCodeEmail").post(registerClientsController.verifyCodeEmail); //esto es como un dominio y significa: /api/registerClients/verifyCodeEmail
 
 export default router;
