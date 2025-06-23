@@ -67,7 +67,7 @@ export const ClientAuthProvider = ({ children }) => {
   const logout = useCallback(() => {
     const logoutClient = async () => {
       try {
-        await fetch(`${API_URL}/client-logout`, {
+        await fetch(`${API_URL}/logout`, {
           method: "POST",
           headers: {
             "Authorization": `Bearer ${clientToken}`,
@@ -88,7 +88,7 @@ export const ClientAuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const response = await fetch(`${API_URL}/client-login`, {
+      const response = await fetch(`${API_URL}/login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
